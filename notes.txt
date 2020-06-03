@@ -1,0 +1,17 @@
+Pandas will concatonate the data that is displayed. we can see the total data by typing df.shape
+
+# set up our max display
+pd.set_option('display.max_columns', 85)
+pd.set_option('display.max_rows', 85)
+
+# show top results w/ the number as arg
+df.head(12)
+
+# show last results w/ num as ar
+df.tail(12)
+
+# show the num of columns and max_rows
+df.shape
+
+# show more info
+df.info()
